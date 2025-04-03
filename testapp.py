@@ -19,7 +19,7 @@ def result():
       res = result.to_dict(flat=True)
       print("res:",res)
       arr1 = res.values()
-      arr = ([value for value in arr1])
+      arr = ([float(value) for value in arr1])
 
       data = np.array(arr)
 
@@ -27,14 +27,14 @@ def result():
       print(data)
       loaded_model = pickle.load(open("careerlast.pkl", 'rb'))
       predictions = loaded_model.predict(data)
-     # return render_template('testafter.html',a=predictions)
+    
       
       print(predictions)
       pred = loaded_model.predict_proba(data)
       print(pred)
       #acc=accuracy_score(pred,)
       pred = pred > 0.05
-      #print(predictions)
+      
       i = 0
       j = 0
       index = 0
@@ -72,9 +72,9 @@ def result():
                    15:'Software Tester',
                    16:'Technical Writer'}
                 
-      #print(jobs_dict[predictions[0]])
+      
       job = {}
-      #job[0] = jobs_dict[predictions[0]]
+      
       index = 1
      
         
