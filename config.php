@@ -2,9 +2,9 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'mani');
-define('DB_PASSWORD', 'adminpass');
-define('DB_NAME', 'my_db');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'career_guidance');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
