@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎯 Intelligent Career Guidance System
 
 ## Overview
@@ -91,3 +92,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 - Thanks to all contributors
 - Inspired by the need for better career guidance in tech education
+=======
+# carrer-guidence-syatem
+A career guidance system designed to help individuals choose the right profession by predicting and analyzing their skills.
+>>>>>>> b27ef52a00bfe28c9e25e4441106d6806446611c
