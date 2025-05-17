@@ -1,8 +1,10 @@
-<<<<<<< HEAD
 # 🎯 Intelligent Career Guidance System
 
 ## Overview
 An innovative web-based career guidance system that leverages machine learning to help engineering students discover their ideal career paths. The system provides personalized career recommendations based on individual skills, interests, and aptitudes.
+
+## 📹 Video Demonstration
+[Click here to watch the project demonstration](https://drive.google.com/file/d/1ksFpu1FplU0unO0VutrVyRg7HeRLsgwP/view?usp=sharing)
 
 ## 🌟 Key Features
 
@@ -87,12 +89,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👥 Authors
-- Your Name - Initial work
+- Manikrishna Gaonkar - Initial work
 
 ## 🙏 Acknowledgments
 - Thanks to all contributors
 - Inspired by the need for better career guidance in tech education
-=======
-# carrer-guidence-syatem
-A career guidance system designed to help individuals choose the right profession by predicting and analyzing their skills.
->>>>>>> b27ef52a00bfe28c9e25e4441106d6806446611c
