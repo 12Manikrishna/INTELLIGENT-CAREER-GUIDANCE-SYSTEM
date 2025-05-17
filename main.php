@@ -32,7 +32,7 @@ session_start();
 								<?php else: ?>
 									<p class="lead white-text" style="margin-left: 5px;" ><b>Hi, <?php echo htmlspecialchars($_SESSION["username"]); ?> !<br><b>Discover yourself,<br>Take the test to find the perfect role for you after Engineering</b></p>
 
-									<a class="main-button icon-button" href="http://127.0.0.1:5000/">Get Started!</a>
+									<a class="main-button icon-button" href="http://127.0.0.1:5000/predict">Get Started!</a>
 								
 							<?php endif ?>
 							
@@ -76,7 +76,7 @@ session_start();
 								if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):?>
 									<a href="login.php"><h4>Career Prediction</h4></a>
 								<?php else: ?>
-									<a href="http://127.0.0.1:5000/"><h4>Career Prediction</h4></a>
+									<a href="http://127.0.0.1:5000/predict"><h4>Career Prediction</h4></a>
 									
 								
 							<?php endif ?>
